@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1e3a30" />
+  <meta name="description" content="Curated hampers, personal keepsakes and dried florals, each finished with a note in your own words. Browse the collection and book a gift on WhatsApp with Dearly." />
+  <title>Dearly — Gifts with a little more meaning.</title>
+  <link rel="icon" href="/public/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="/public/images/hero.webp" as="image" type="image/webp" imagesrcset="/public/images/hero-640.webp 640w, /public/images/hero.webp 1200w" imagesizes="(max-width: 720px) 92vw, 44vw" fetchpriority="high" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><span>Gifts for one person, or a whole celebration.</span><button data-book="custom">Talk to the studio</button></div>
+  <header class="site-header" id="header">
+    <div class="nav-shell">
+      <a class="brand" href="#" aria-label="Dearly home"><span class="brand-main" data-brand>dearly<span class="brand-dot">.</span></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <div class="nav-disclosure"><button class="nav-link" id="collections-toggle" data-nav="collections-panel" aria-expanded="false" aria-controls="collections-panel">Collections <i data-icon="chevron"></i></button>
+          <div class="nav-panel collection-menu" id="collections-panel" hidden aria-labelledby="collections-toggle">
+            <div class="nav-panel-links"><a href="#collection" data-nav-filter="all"><span>All gifts<small>The whole collection</small></span><i data-icon="arrow-up-right"></i></a><button data-product="little-joys"><span>Curated hampers<small>Good things, boxed together</small></span><i data-icon="gift"></i></button><button data-product="our-story"><span>Personal keepsakes<small>For moments worth keeping</small></span><i data-icon="heart"></i></button><a href="#bespoke"><span>Celebrations and bulk gifts<small>One idea, many happy people</small></span><i data-icon="sparkle"></i></a></div>
+            <button class="nav-feature" data-open="finder"><img src="/public/images/hamper-360.webp" width="360" height="360" alt="A curated gift hamper" loading="lazy" decoding="async"/><span>Not sure where to start?<strong>Find a gift match</strong></span></button>
+          </div>
+        </div>
+        <div class="nav-disclosure"><button class="nav-link" id="occasions-toggle" data-nav="occasions-panel" aria-expanded="false" aria-controls="occasions-panel">Occasions <i data-icon="chevron"></i></button>
+          <div class="nav-panel occasion-menu" id="occasions-panel" hidden aria-labelledby="occasions-toggle"><p class="nav-panel-title">Shop by occasion</p><button data-occasion="birthday"><i data-icon="cake"></i><span>Birthdays</span></button><button data-occasion="anniversary"><i data-icon="heart"></i><span>Anniversaries</span></button><button data-occasion="just-because"><i data-icon="flower"></i><span>Just because</span></button><button data-occasion="celebration"><i data-icon="sparkle"></i><span>Celebrations</span></button></div>
+        </div>
+        <a class="nav-link" href="#personalize" data-section="personalize">Make it personal</a><a class="nav-link" href="#our-story" data-section="our-story">The studio</a>
+      </nav>
+      <div class="header-actions"><button class="icon-button" data-open="search" aria-label="Search gifts"><i data-icon="search"></i></button><button class="icon-button wishlist-button" data-open="wishlist" aria-label="View saved gifts"><i data-icon="heart"></i><span class="saved-dot" hidden></span></button><button class="icon-button bag-button" data-open="bag" aria-label="Shopping bag, 0 items"><i data-icon="bag"></i><span class="bag-count">0</span></button><button class="nav-whatsapp" data-book="general"><i data-icon="whatsapp"></i><span>Book on WhatsApp</span></button><button class="icon-button mobile-toggle" data-open="menu" aria-label="Open navigation" aria-expanded="false" aria-controls="app-dialog"><i data-icon="menu"></i></button></div>
+    </div>
+    <div class="reading-progress" aria-hidden="true"></div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title" class="hero-enter">Gifts they'll keep.<br>And feel.</h1>
+        <p class="hero-description hero-enter">Curated hampers, personal keepsakes and dried florals, each one finished with a note in your own words.</p>
+        <div class="hero-ctas hero-enter"><a class="button button-primary" href="#collection">Explore the collection</a><button class="button button-outline" data-book="general"><i data-icon="whatsapp"></i>Book on WhatsApp</button></div>
+        <p class="hero-note hero-enter">Not sure where to start? <button class="text-button" data-open="finder">Find a gift match</button></p>
+      </div>
+      <div class="hero-art hero-enter">
+        <div class="hero-field" aria-hidden="true"></div>
+        <figure class="hero-photo"><img srcset="/public/images/hero-640.webp 640w, /public/images/hero.webp 1200w" sizes="(max-width: 720px) 92vw, 44vw" src="/public/images/hero.webp" alt="A rose gift box tied with a wine ribbon beside a candle, a cream keepsake box and dried flowers" width="1200" height="800" fetchpriority="high" /></figure>
+        <div class="gift-tag hero-tag" aria-hidden="true"><svg class="tag-string" viewBox="0 0 160 130" fill="none"><path d="M4 126C36 112 56 76 86 54S132 22 156 6"/></svg><div class="tag-paper"><span class="tag-to">Dear Maya,</span><p>Here's a little something to remind you how much you mean to me.</p><span class="tag-from">with love</span></div></div>
+      </div>
+    </section>
+    <ul class="promise-line" aria-label="What every gift includes"><li>Your words, added to every gift</li><li>Wrapped and ready to give</li><li>Keepsakes, not clutter</li><li>One gift or a whole guest list</li></ul>
+    <section class="occasion-section section-shell" id="occasions" aria-labelledby="occasions-heading">
+      <div class="occasion-heading"><h2 id="occasions-heading">What's the occasion?</h2><p>Start with the moment, and we'll show you the gifts that fit it.</p></div>
+      <div class="occasion-list"><button class="occasion-tag" data-occasion="birthday"><i data-icon="cake"></i><span>A birthday</span></button><button class="occasion-tag" data-occasion="anniversary"><i data-icon="heart"></i><span>An anniversary</span></button><button class="occasion-tag" data-occasion="just-because"><i data-icon="flower"></i><span>Just because</span></button><button class="occasion-tag" data-occasion="celebration"><i data-icon="sparkle"></i><span>A celebration</span></button></div>
+    </section>
+    <section class="collection section-shell" id="collection" aria-labelledby="collection-heading">
+      <div class="section-heading"><div><h2 id="collection-heading">The collection</h2><p>A small collection, chosen so every piece is worth keeping. Each one leaves room for your note.</p></div><button class="text-button view-all" id="view-all">Show all gifts</button></div>
+      <div class="collection-toolbar"><div class="filter-tabs" aria-label="Filter gifts by occasion"><button class="filter-tab active" data-filter="all" aria-pressed="true">All gifts</button><button class="filter-tab" data-filter="birthday" aria-pressed="false">Birthdays</button><button class="filter-tab" data-filter="anniversary" aria-pressed="false">Anniversaries</button><button class="filter-tab" data-filter="just-because" aria-pressed="false">Just because</button><button class="filter-tab" data-filter="celebration" aria-pressed="false">Celebrations</button></div><span id="product-count" class="product-count" aria-live="polite"></span></div>
+      <div class="product-grid" id="product-grid"></div><noscript><p class="no-products">Enable JavaScript to browse the collection, personalize gifts and prepare a WhatsApp enquiry.</p></noscript>
+      <div class="collection-bottom"><span>Looking for something specific?</span><button class="text-button" data-open="finder">Find a gift match</button></div>
+    </section>
+    <section class="personalize-section" id="personalize" aria-labelledby="personalize-heading">
+      <div class="personalize-panel section-shell">
+        <div class="personalize-copy"><h2 id="personalize-heading">Say it in your own words.</h2><p>Add their name and a short note. It goes on the card inside the gift, and you can watch it take shape here as you type.</p><button class="button button-light" data-open="personalize">Make it personal</button></div>
+        <div class="personalize-art reveal"><div class="gift-card-preview"><div class="card-dear">Dear <span id="sample-name">your favorite person</span>,</div><p id="sample-message">Here's a little something to remind you how much you mean to me.</p><span class="card-signoff">With all my love, always.</span><span class="card-brand" data-brand>dearly.</span></div><div class="ribbon-band" aria-hidden="true"></div></div>
+      </div>
+    </section>
+    <section class="bespoke-section section-shell" id="bespoke" aria-labelledby="bespoke-title">
+      <div class="section-heading"><div><h2 id="bespoke-title">Gifts for an occasion.</h2><p>One gift or a whole guest list. Tell us the feeling you're after, and we'll plan from there.</p></div></div>
+      <div class="bespoke-list">
+        <button class="bespoke-card" data-book="personal"><span class="bespoke-icon"><i data-icon="heart"></i></span><strong>A personal gift</strong><span class="bespoke-text">A favorite memory, a name, a note. Start with something only they would understand.</span><span class="bespoke-link">Plan a personal gift<i data-icon="arrow-right"></i></span></button>
+        <button class="bespoke-card" data-book="celebration"><span class="bespoke-icon"><i data-icon="sparkle"></i></span><strong>A celebration</strong><span class="bespoke-text">Wedding favors, birthday surprises and thank-yous for everyone who came.</span><span class="bespoke-link">Plan a celebration<i data-icon="arrow-right"></i></span></button>
+        <button class="bespoke-card" data-book="corporate"><span class="bespoke-icon"><i data-icon="gift"></i></span><strong>Business gifting</strong><span class="bespoke-text">Welcome a team, thank a client or mark a milestone together.</span><span class="bespoke-link">Discuss business gifting<i data-icon="arrow-right"></i></span></button>
+      </div>
+      <ol class="booking-process"><li><b>1</b>Tell us your idea</li><li><b>2</b>We talk through the details</li><li><b>3</b>Confirm your gift</li></ol>
+    </section>
+    <section class="story-section section-shell" id="our-story" aria-labelledby="story-heading">
+      <div class="story-art reveal"><figure class="story-photo"><img src="/public/images/hamper-640.webp" srcset="/public/images/hamper-360.webp 360w, /public/images/hamper-640.webp 640w, /public/images/hamper.webp 800w" sizes="(max-width: 720px) 92vw, 40vw" alt="A gift hamper with a speckled ceramic mug, an amber candle and a small bunch of dried flowers" width="800" height="800" loading="lazy" decoding="async" /></figure><figure class="story-detail"><img src="/public/images/mug-640.webp" srcset="/public/images/mug-360.webp 360w, /public/images/mug-640.webp 640w, /public/images/mug.webp 800w" sizes="(max-width: 720px) 40vw, 18vw" alt="A speckled ivory ceramic mug with a small painted heart" width="800" height="800" loading="lazy" decoding="async" /></figure></div>
+      <div class="story-copy"><h2 id="story-heading">It's never just a gift.</h2><blockquote class="story-quote"><p>It's “I saw this and thought of you.”<br>It's “I'm so proud of you.”<br>It's “I wish I could be there.”</p></blockquote><p>At the heart of <span data-brand-name>Dearly</span> is a simple idea: the smallest gestures carry the biggest feelings. So we make room for the details that turn a thing into a keepsake.</p><a class="text-button" href="#collection">Find something that says it for you</a></div>
+    </section>
+    <section class="finder-banner section-shell" aria-labelledby="finder-heading"><div class="finder-banner-inner"><div><h2 id="finder-heading">A person in mind, but no gift yet?</h2><p>Tell us the occasion and your budget, and we'll suggest a few that fit.</p></div><button class="button button-primary" data-open="finder">Find a gift match</button></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-top section-shell"><div class="footer-intro"><a class="brand footer-brand" href="#" aria-label="Dearly home"><span class="brand-main" data-brand>dearly.</span></a><p data-brand-caption>Gifts with a little more meaning.</p></div><nav class="footer-links" aria-label="Gifts"><span>Gifts</span><a href="#collection">Explore the collection</a><a href="#occasions">Shop by occasion</a><a href="#personalize">Make it personal</a></nav><nav class="footer-links" aria-label="Studio"><span>Studio</span><a href="#our-story">The thought behind it</a><button data-open="wishlist">Your saved gifts</button><button data-open="help">Help</button><button data-book="general">Book on WhatsApp</button></nav><p class="footer-signoff">For every kind of love.</p></div><div class="footer-bottom section-shell"><span>© <span id="year">2026</span> <span data-brand-name>Dearly</span>. The thoughtful gift studio.</span><span class="concept-note">Independent design concept. Sample products and prices.</span><button id="back-top">Back to top</button></div></footer>
+  <button class="floating-whatsapp" data-book="general" aria-label="Book a gift on WhatsApp"><i data-icon="whatsapp"></i><span>Book on WhatsApp</span></button>
+  <nav class="mobile-action-bar" aria-label="Quick actions"><a href="#collection"><i data-icon="gift"></i><span>Explore gifts</span></a><button data-book="general"><i data-icon="whatsapp"></i><span>Book on WhatsApp</span></button></nav>
+  <dialog class="app-dialog" id="app-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

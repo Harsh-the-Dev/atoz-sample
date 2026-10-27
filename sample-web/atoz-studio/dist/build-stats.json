@@ -1,0 +1,11 @@
+{
+  "javascriptBytes": 45601,
+  "javascriptBrotliBytes": 12088,
+  "cssBytes": 41619,
+  "cssBrotliBytes": 7805,
+  "htmlBrotliBytes": 3330,
+  "mobileHeroBytes": 24304,
+  "desktopHeroBytes": 77396,
+  "primaryImagesBytes": 248198,
+  "externalRuntimeDependencies": 0
+}
